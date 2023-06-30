@@ -15,8 +15,11 @@
 
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
+* go to [this website](https://www.exchangerate-api.com/) to get your free API Key. Input your email address and click the "Get Free Key" button.
+* You'll be prompted to create an account with your email, first name and a password. Agree to the terms of use and click "Get Started!"
+* At this point, you'll be able to access a dashboard that includes your API key as well as your remaining API calls for the month.
+* Place your API key in an .env file at the top level of your directory.
+
 * _in a simple_
 * _easy-to-understand_
 * _format_
