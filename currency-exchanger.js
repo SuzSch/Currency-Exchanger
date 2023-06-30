@@ -1,6 +1,8 @@
 export default class Exchanger {
   static getExchangeRate(currencyCode) {
-    return fetch(`http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${process.env.API_KEY}`)
+    return fetch(`https://v6.exchangerate-api.com/v6/process.env.API_KEY
+    /latest/USD
+    `)
       .then(function (response) {
         if (!response.ok) {
           const errorMessage = `${response.status} ${response.statusText}`;
