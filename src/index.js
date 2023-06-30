@@ -1,6 +1,14 @@
 import './css/styles.css';
-import Exchanger from './currency-exchanger';
+import CurrencyExcahnger from './currency-exchanger';
 
-async function getExchangeRates(currencyCode) {
-
+function exchangeCurrency(CurrencyCode) {
+  CurrencyExcahnger.exchangeCurrency(CurrencyCode)
+    .then(function (response) {
+      if (response.main) {
+        printElements(response, CurrencyCode);
+      } else {
+        printError(response);
+      }
+    });
 }
+console.log(exchangeCurrency(CurrencyCode))
