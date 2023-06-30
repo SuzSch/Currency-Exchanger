@@ -11,8 +11,9 @@
     <p class="heading"> Check <a href="https://www.iban.com/currency-codes">here</a> if you are unsure of the country's
       currency
       code</p>
-    <input placeholder=" Enter $ Dollar Amount" class="input" type="number">
-    <input oninput="this.value = this.value.toUpperCase()" placeholder="Enter Currency Code" class="input" type="text">
+    <input id=dollar-amount placeholder="Enter $ Dollar Amount" class="input" type="number">
+    <input id=currency-code oninput="this.value = this.value.toUpperCase()" placeholder="Enter Currency Code"
+      class="input" type="text">
     <button class="btn">Get Conversion</button>
 
     <div id="covertedDollarsDiv"></div>
