@@ -22,11 +22,9 @@
   padding-left: 0.8em;
   color: #DAA06D;
   background-color: transparent;
-  letter-spacing: .5em;
   text-align: center;
-  padding-top: 1em;
-  padding-bottom: 3em;
   text-shadow: inset -1px -1px 1px #DAA06D;
+  font-size: x-large;
 }
 
 .form .input {
@@ -56,6 +54,7 @@
   transition: .4s ease-in-out opacity, .1s ease-in-out active;
   padding: 1em;
   box-shadow: 0.5px 0.5px 0.5px 0.5px rgba(0, 0, 0, 0.5);
+  margin: 5px;
 }
 
 .form .btn:hover {
@@ -65,4 +64,13 @@
 .form .btn:active {
   transform: translateX(0.1em) translateY(0.1em);
   box-shadow: none;
+}
+
+a {
+  color: rgb(5, 0, 0);
+  border: solid #DAA06D 2px;
+  border-radius: 5px;
+  text-decoration: none;
+  background-color: #E5AA70;
+
 }
