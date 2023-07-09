@@ -1,3 +1,4 @@
+![Picture of various currencies .](https://www.foreignexchangelive.com/wp-content/uploads/2019/03/operating-globally-invoicing-in-a-foreign-currency-explained-2.jpg)
 # Currency Exchanger
 #### By Suzanne Schuber
 
